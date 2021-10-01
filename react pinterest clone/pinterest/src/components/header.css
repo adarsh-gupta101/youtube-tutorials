@@ -1,0 +1,49 @@
+#icon {
+  width: 45px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__input {
+  display: flex;
+  width: 65vw;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  background-color: rgb(224, 224, 224);
+
+  border-radius: 15px 50px;
+  padding: 10px;
+}
+
+input {
+  border: 0;
+  outline-width: 0;
+  background-color: transparent;
+}
+.header > p {
+  font: 200;
+  font-weight: 500;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 30%;
+}
+
+.header > p:hover {
+  background-color: rgb(7, 0, 0) !important;
+  color: wheat;
+}
+
+.header__input:hover {
+  background-color: rgb(202, 201, 201) !important;
+}
+.icon:hover {
+  color: rgb(202, 191, 191) !important;
+}
+@media only screen and (max-width: 350px) {
+  p {
+    display: none;
+  }
+}
