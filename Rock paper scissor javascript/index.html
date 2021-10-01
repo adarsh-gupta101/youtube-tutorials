@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>The Great Game of rock paper scissor</h1>
+      <br />
+      <h1 id="result"></h1>
+      <div style="display: flex; width: 90vw; justify-content: space-evenly">
+        <div class="scoreboard">
+          <h1>user score:</h1>
+          <h1 id="user"></h1>
+        </div>
+        <div class="scoreboard">
+          <h1>Computer score:</h1>
+          <h1 id="computer"></h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="items__container">
+          <img src="./rock.png" id="0" class="items" onclick="game(this.id)" />
+          <img src="./paper.png" id="1" class="items" onclick="game(this.id)" />
+          <img
+            src="./scissor.png"
+            id="2"
+            class="items"
+            onclick="game(this.id)"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
